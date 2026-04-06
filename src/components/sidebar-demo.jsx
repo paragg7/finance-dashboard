@@ -71,7 +71,7 @@ const Logo = React.memo(function Logo({ isCollapsed }) {
     >
       {/* Logo Icon */}
       <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-md bg-gradient-to-br from-neutral-900 to-neutral-700">
-        <span className="text-xs font-bold text-white">A</span>
+        <span className="text-xs font-bold text-white">S</span>
       </div>
 
       {/* Logo Text - Animated */}
@@ -145,7 +145,7 @@ const DashboardHeader = React.memo(function DashboardHeader() {
   const [searchQuery, setSearchQuery] = useState("");
 
   return (
-    <header className="sticky top-0 z-20 border-b border-neutral-200 bg-gray-50 backdrop-blur-md">
+    <header className="sticky top-0 z-20 border-b border-neutral-200  backdrop-blur-md">
       <div className="flex h-16 items-center justify-between gap-4 px-6">
         {/* Page Title - Mobile */}
         <h1 className="text-lg font-semibold text-neutral-900 md:hidden">
